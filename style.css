@@ -16,19 +16,19 @@ body {
 }
 
 main {
-  align-items: center;
   color: var(--text-color);
-  display: flex;
-  justify-content: center;
   min-height: 100vh;
   min-width: 100vw;
+  text-align: center;
 }
 
 .title {
   border: 2px solid var(--text-color);
   color: var(--text-color);
+  display: inline-block;
   font-family: 'Montserrat', sans-serif;
   font-size: 3rem;
+  margin: 40vh auto 0;
   padding: 1rem;
   text-decoration: none;
   transition: padding var(--transition-time);
